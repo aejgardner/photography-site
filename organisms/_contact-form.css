@@ -1,0 +1,13 @@
+.contact-form {
+    width: 60%;
+    padding: 1rem;
+}
+
+/* try not to use semantic tags - if you have to then the chances are you should apply the properties to them as atoms, rather than nested parts of molecules */
+
+@media screen and (max-width: 500px) {
+    .contact-form {
+        width: 100%;
+        padding: 1rem;
+    }
+}

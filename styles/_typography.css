@@ -1,0 +1,50 @@
+/* aim to describe what's between the curly braces, the sction it's performing rather than what it's being linked to - kinda the opposite of BEM, which has one class for one selector */
+
+* {
+    font-family: Nunito, sans-serif;
+    color: var(--dark-grey);
+}
+
+.logo {
+    font-family: Pacifico, sans-serif;
+    font-size: 2.4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 { /* maybe don't use semantic tags, as the the properties might be perfect for somewhere else on the page which happens to not be that semantic tag, eg this property may be good for an h2 as well and as h3 */
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+ul {
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+}
+
+.posted {
+    font-size: .8rem;
+    margin: 1rem 0;
+}
+
+p { /* just using the element name is better suited to a reset */
+    font-size: 1rem;
+    margin-bottom: .8rem;
+} 

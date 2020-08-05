@@ -1,0 +1,10 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* colours */
+:root {
+    --dark-grey: #4A4A4A;
+    --turquoise: #41CADD;
+}

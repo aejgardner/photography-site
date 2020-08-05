@@ -1,0 +1,13 @@
+.recents {
+    display: flex;
+    flex-direction: column;
+}
+
+.recents-ul {
+    margin: .1rem 0 2.2rem;
+}
+
+.recents li {
+    display: block;
+    margin: 30px 0;
+}

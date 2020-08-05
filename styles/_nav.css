@@ -1,0 +1,39 @@
+.nav-main-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-main-ul li {
+    margin: 0 2.6rem;
+}
+
+.nav-main-ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.search-bars {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .search-magnify {
+        display: none;
+    }
+
+    .search-bars {
+        display: block;
+    }
+
+    .nav-main {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .search-bars {
+        width: 1.5rem;
+        height: 1.5rem
+    }
+}

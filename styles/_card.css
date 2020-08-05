@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card figure {
+        width: 100%;
+        height: 20vw;
+    }
+
+.card .category {
+    color: #FEFEFE;
+    text-decoration: none;
+    margin: 5px auto;
+    padding: 5px 10px;
+}
+
+.card .posted {
+    margin: .8rem 0;
+}
+
+.card .body-para {
+    flex-grow: 1;
+    margin: .8rem 0 2rem 0;
+    text-align: center;
+}
+
+.card a {
+    color: #41CADD;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .card figure {
+        width: 100%;
+        height: 40vw;
+    }
+
+    .card .body-para {
+        flex-grow: 1;
+        margin: .8rem 0 2rem 0;
+        text-align: center;
+    }
+}

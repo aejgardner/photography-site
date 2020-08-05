@@ -1,0 +1,41 @@
+.hero {
+    position: relative;
+    margin-bottom: 1.4rem;
+}
+
+.hero-text, .hero-text-period, .large-italic-text {
+    font-size: 3rem;
+}
+
+.hero-text {
+    color: #FEFEFE;
+    position: absolute;
+    top: 35%;
+    left: 4%;
+}
+
+.hero-text-period {
+    color: #FF6A7C;
+}
+
+.large-italic-text { /* name class after what it is rather tyhan what it contains so it can be used in other places - becomes more descriptive */
+    font-family: Pacifico, sans-serif;
+    color: var(--turquoise);
+}
+
+@media screen and (max-width: 780px) {
+    .hero-text, .hero-text-period, .large-italic-text {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-text, .hero-text-period, .large-italic-text {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+}

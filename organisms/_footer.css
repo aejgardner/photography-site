@@ -1,0 +1,28 @@
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 780px) {
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+}

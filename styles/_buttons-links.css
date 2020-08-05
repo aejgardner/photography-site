@@ -1,0 +1,53 @@
+.button {
+    background-color: #FF6A7C;
+    font-family: Nunito, sans-serif;
+    font-weight: 300;
+    color: #FEFEFE;
+    font-size: 1.1rem;
+    border: none;
+    padding: .9rem 1.6rem;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.category {
+    background-color: #41CADD;
+    color: #FEFEFE;
+    font-size: .9rem;
+    padding: .2rem .5rem;
+    text-decoration: none;
+}
+
+.search-magnify {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.search-bars {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.social-icon {
+    width: 55px;
+    height: 55px;
+}
+
+@media screen and (max-width: 780px) {
+    .social-icon {
+        width: 46px;
+        height: 46px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .category {
+        background-color: #41CADD;
+        color: #FEFEFE;
+        font-size: .8rem;
+        padding: .2rem .5rem;
+        text-decoration: none;
+    }
+}
